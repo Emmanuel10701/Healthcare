@@ -75,10 +75,14 @@ const HeroSection = () => {
               </p>
             </div>
             <div className="flex justify-center items-center">
-              <button className="bg-gradient-to-r from-blue-500 to-blue-700 text-white text-center font-bold py-3 px-4 rounded-full flex items-center w-1/2" onClick={handleClick}>
-                Book Appointment <ArrowRight className="ml-2" />
-              </button>
-            </div>
+            <button
+              className="bg-gradient-to-r from-blue-500 to-blue-700 text-white font-bold py-3 px-4 rounded-full flex items-center w-1/2 md:w-3/4 text-lg md:text-base sm:text-sm"
+              onClick={handleClick}
+            >
+              Book Appointment <ArrowRight className="ml-2" />
+            </button>
+          </div>
+
           </div>
           <div className="flex flex-1 w-full md:w-1/2">
             <Image
