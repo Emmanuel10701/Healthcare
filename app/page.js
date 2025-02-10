@@ -62,19 +62,20 @@ const HeroSection = () => {
           Book Appointment With Trusted Doctors
         </h1>
 
-            <div className="flex items-center mb-4">
-              <Image
-                src="/assets/assets_frontend/group_profiles.png"
-                alt="Group of healthcare professionals"
-                width={100}
-                height={100}
-                className="object-cover"
-              />
-              <p className="mb-5 text-sm text-justify text-slate-500 ml-5">
-                Get personalized care tailored to your needs with our dedicated team of experienced healthcare professionals.
-                Your health is our priority, and we are here to support you every step of the way.
-              </p>
-            </div>
+        <div className="flex  sm:flex-row items-center sm:items-start mb-4 w-full sm:w-auto">
+  <Image
+    src="/assets/assets_frontend/group_profiles.png"
+    alt="Group of healthcare professionals"
+    width={100}
+    height={100}
+    className="object-cover"
+  />
+  <p className="mt-3 sm:mt-0 text-sm text-justify text-slate-500 sm:ml-5 w-full sm:w-auto">
+    Get personalized care tailored to your needs with our dedicated team of experienced healthcare professionals.
+    Your health is our priority, and we are here to support you every step of the way.
+  </p>
+</div>
+
             <div className="flex justify-center items-center">
             <button
             className="bg-gradient-to-r from-blue-500 to-blue-700 text-white font-bold py-3 px-4 rounded-full flex items-center w-3/4 sm:w-1/2 md:w-3/4 text-sm sm:text-base md:text-lg"
