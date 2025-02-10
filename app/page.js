@@ -165,7 +165,7 @@ const HeroSection = () => {
         </div>
 
         {/* Banner Section */}
-        <div className="flex flex-col md:flex-row items-center mx-auto justify-center w-[78%] rounded-lg h-[88%] bg-blue-600 text-white p-10">
+        <div className="flex flex-col md:flex-row items-center mx-auto justify-center w-[88%] rounded-lg h-[88%] bg-blue-600 text-white p-10">
           <div className="w-full md:w-1/2 flex flex-col justify-center p-5">
             <h1 className="text-3xl font-bold mb-4">Create Your Account Today</h1>
             <p className="mb-4">
