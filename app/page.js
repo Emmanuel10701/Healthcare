@@ -78,7 +78,7 @@ const HeroSection = () => {
 
             <div className="flex justify-center items-center">
             <button
-            className="bg-gradient-to-r from-blue-500 to-blue-700 text-white font-bold py-3 px-4 rounded-full flex items-center w-3/4 sm:w-1/2 md:w-3/4 text-sm sm:text-base md:text-lg"
+            className="bg-gradient-to-r from-blue-500 to-blue-700 text-white font-bold py-3 px-4 rounded-full flex items-center w-2/4 sm:w-1/3 md:w-2/4 text-sm sm:text-base md:text-lg"
             onClick={handleClick}
           >
             <span className="block sm:hidden">Visit Us</span>
