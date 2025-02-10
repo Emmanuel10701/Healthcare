@@ -58,9 +58,10 @@ const HeroSection = () => {
         {/* Hero Section */}
         <div className="bg-opacity-60 flex flex-col-reverse mt-20 md:flex-row bg-blue-100">
           <div className="hero-content text-neutral-content flex flex-col justify-center w-full md:w-1/2 p-8">
-            <h1 className="mb-5 text-5xl font-bold bg-gradient-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent">
-              Book Appointment With Trusted Doctors
-            </h1>
+          <h1 className="mb-5 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold bg-gradient-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent">
+          Book Appointment With Trusted Doctors
+        </h1>
+
             <div className="flex items-center mb-4">
               <Image
                 src="/assets/assets_frontend/group_profiles.png"
