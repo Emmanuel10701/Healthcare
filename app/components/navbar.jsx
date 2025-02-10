@@ -37,7 +37,7 @@ const Navbar = () => {
 
   return (
     <div className="fixed top-0 left-0 w-full bg-white border-b border-blue-300 shadow-md py-4 z-50">
-      <div className="container mx-auto flex items-center justify-between px-4 md:px-8">
+      <div className="container mx-auto flex items-center justify-between px-4 md:px-8 max-w-screen-xl flex-wrap gap-x-6">
         {/* Logo */}
         <div className="w-36 md:w-44 cursor-pointer">
           <Image
@@ -49,7 +49,7 @@ const Navbar = () => {
         </div>
 
         {/* Desktop Nav Links */}
-        <div className="hidden md:flex items-center gap-6">
+        <div className="hidden md:flex items-center gap-x-6 flex-wrap">
           <ul className="flex space-x-6 text-blue-600 font-medium">
             {menuItems.map((item, index) => (
               <li
@@ -70,7 +70,7 @@ const Navbar = () => {
         </div>
 
         {/* Desktop Buttons */}
-        <div className="hidden md:flex gap-4">
+        <div className="hidden md:flex gap-x-4 flex-wrap">
           {!session ? (
             <>
               <button
@@ -102,7 +102,7 @@ const Navbar = () => {
                 {session.user?.name}
               </button>
               {dropdownOpen && (
-                <div className="absolute right-0 mt-2 bg-white border rounded shadow-lg">
+                <div className="absolute right-0 mt-2 bg-white border rounded shadow-lg w-40">
                   <ul className="py-2">
                     <li
                       className="px-4 py-2 hover:bg-gray-200 cursor-pointer flex items-center gap-2"
