@@ -133,9 +133,9 @@ const HeroSection = () => {
         </div>
 
         {/* Doctors Cards Section */}
-        <div className="flex flex-wrap gap-8 mx-20">
+        <div className="flex flex-wrap gap-8   mx-20">
           {displayedDoctors.map((doctor) => (
-            <div key={doctor.id} className="border rounded-lg overflow-hidden shadow-md">
+            <div key={doctor.id} className="border md:w-1/5 w-[90%] rounded-lg overflow-hidden shadow-md">
               <Image
                 src={doctor.image}
                 alt={doctor.name}
